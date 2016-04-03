@@ -25,5 +25,7 @@ npm run test
 - Add a better app shell
 - Set up Service Workers to cache static assets
 - Add a more dynamic example
-- Add page load time accepance test
+- Tests
+-- Organize tests according to test type (accepance, intergration, unit)
+-- Add page load time accepance test
 
