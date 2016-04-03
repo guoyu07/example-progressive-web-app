@@ -15,9 +15,15 @@ docker-compose up
 ```
 Use the Docker host's IP address (docker-machine ip default) to see the application running in a web browser.
 
+## Tests
+```
+npm run test
+```
+
 ## TODO
-- Add nightwatch.js
+- Add Travis CI
 - Add a better app shell
 - Set up Service Workers to cache static assets
 - Add a more dynamic example
+- Add page load time accepance test
 
