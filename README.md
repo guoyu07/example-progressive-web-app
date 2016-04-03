@@ -5,8 +5,8 @@ Mainly, this is a way for me to stay up-to-date with new web capabilities withou
 having to start from scratch.
 
 ## Getting Started
-```
 Install [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
+```
 docker-machine create --driver virtualbox default
 docker-machine env default
 eval "$(docker-machine env default)"
