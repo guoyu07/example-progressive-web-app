@@ -2,9 +2,8 @@ const dockerHost = require('docker-host')();
 
 module.exports = {
   'Welcome Test' : function (browser) {
-    console.log(process.env);
     browser
-      .url(browser.launch_url)
+      .url('http://127.0.0.1')
       .waitForElementVisible('body', 500)
       .assert.containsText('h1', 'Welcome')
       .end();
