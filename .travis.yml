@@ -5,6 +5,7 @@ language: node_js
 node_js:
 - 4.4.1
 before_script:
+- cat /etc/hosts
 - npm run build
 script:
 - docker-compose up -d
