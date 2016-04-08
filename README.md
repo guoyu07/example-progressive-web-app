@@ -1,4 +1,4 @@
-# Example Progressive Web App
+# Example Progressive Web App [![Build Status](https://travis-ci.org/jasonjlock/example-progressive-web-app.svg?branch=master)](https://travis-ci.org/jasonjlock/example-progressive-web-app)
 
 A foundation for a progressive web application, using modern tools and frameworks.
 Mainly, this is a way for me to stay up-to-date with new web capabilities without
