@@ -9,9 +9,11 @@ before_script:
 - npm run build
 script:
 - docker-compose up -d
+- docker ps
 - npm run test
 addons:
   sauce_connect: true
+  hosts: localhost
 
 env:
   global:
