@@ -21,9 +21,13 @@ npm run test
 ```
 
 ## TODO
+- Properly handle static assets with Nginx
+- User Docker Composer volumes to configure Nginx
 - Add Travis CI
 - Add a better app shell
 - Set up Service Workers to cache static assets
 - Add a more dynamic example
-- Add page load time accepance test
+- Tests
+-- Organize tests according to test type (accepance, intergration, unit)
+-- Add page load time accepance test
 
