@@ -4,8 +4,10 @@ services:
 language: node_js
 node_js:
 - 4.4.1
+before_script:
+- npm run build
 script:
-- docker-compose up
+- docker-compose up -d
 - npm run test
 addons:
   sauce_connect: true

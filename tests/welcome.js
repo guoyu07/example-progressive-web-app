@@ -2,7 +2,7 @@ const dockerHost = require('docker-host')();
 
 module.exports = {
   'Welcome Test' : function (browser) {
-    console.log(browser.launch_url);
+    console.log(process.env);
     browser
       .url(browser.launch_url)
       .waitForElementVisible('body', 500)
