@@ -8,7 +8,7 @@ before_script:
 - npm run build
 script:
 - docker-compose up -d
-- npm test --env saucelabs
+- npm test
 addons:
   sauce_connect: true
 
