@@ -10,10 +10,7 @@ script:
 - docker-compose up -d
 - npm test
 addons:
-  sauce_connect:
-    username: jasonlock
-    access_key:
-      secure: j+aB8OuRa2IZFzrLROHHbYfaOyx5kKPsvfOtB5+FgaJ5La80JgCn4xUSQe5w4CY5yv7Md1X7ubVQXoaCGR9555Y2d+oQ2epF7Gy4K9fqoOqYHLH6jeu3CRYvcfLs1coYnGnZUi/x2MqcJzPECyFPefq8/UlypMSPegDLQtJavvVIvgtSkkEnxUXxF86t6+oZ58HbsOZEwLv25mtVC8VHX7oI+mD2lXUloHkxUEcjkToPxCUV8lwd/kGcFb/LvJevaN5CVHj6EwvztzrGyYGAQRDMAxMRGq6d3OHbpq/sQHY+1riDdi+vfwv86BpNm8IXTAWzSbqqs+cgP3Bfwk4zKn5Po49DoelUpCFLwMzNeGiJYImwCwfjxySWr8vbiMMzKJWgdXQk8YUzIrfr0eyzrRrPKP5845M08mAmXamDgrk7wR2Zcgu4qik2sYZRveL0vHFKfWdeTyLlv+4F/6MJj90EldN2nxNg5hEi6CpJbSnPns4GlGX4u3hM4zGP/SrnPcgrox3UAjPM1aSZ52p/9oTRs8R05OpsLqncD5sIdnT2i+GEizsVn8KH4spJlkwY+qrNk/H85jU9ojaRrZ70az8rNglcKl1ZUhtXBPBQ8qk0Q8GFt6+WEJf5yihSG0XhKvIfMSzd3BRUzI4ZWUTHl9n3/DinubEyGDw5HkWd/XI=
+  sauce_connect: true
 
 env:
   global:
