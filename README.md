@@ -17,17 +17,17 @@ Use the Docker host's IP address (docker-machine ip default) to see the applicat
 
 ## Tests
 ```
-npm run test
+npm test
 ```
 
 ## TODO
 - Properly handle static assets with Nginx
 - User Docker Composer volumes to configure Nginx
-- Add Travis CI
 - Add a better app shell
 - Set up Service Workers to cache static assets
 - Add a more dynamic example
 - Tests
+-- Get Nightwatch running locally 
 -- Organize tests according to test type (accepance, intergration, unit)
 -- Add page load time accepance test
 
