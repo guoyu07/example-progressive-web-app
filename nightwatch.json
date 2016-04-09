@@ -36,7 +36,7 @@
       },
 
       "saucelabs" : {
-          "launch_url" : "http://ondemand.saucelabs.com:80",
+          "launch_url" : "http://localhost",
           "selenium_host" : "ondemand.saucelabs.com",
           "selenium_port" : 80,
           "username" : "${SAUCE_USERNAME}",
