@@ -9,6 +9,7 @@ before_script:
 script:
 - docker-compose up -d
 - docker ps
+- printenv
 - npm test
 addons:
   sauce_connect: true
