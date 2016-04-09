@@ -6,7 +6,7 @@ module.exports = {
     console.log(browser.launch_url);
 
     browser
-      .url("http://localhost:8080")
+      .url("http://localhost")
       .waitForElementVisible('body', 500)
       .assert.containsText('h1', 'Welcome')
       .end();
